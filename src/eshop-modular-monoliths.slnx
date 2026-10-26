@@ -1,1 +1,7 @@
-<Solution />
+<Solution>
+  <Folder Name="/Bootstrappers/">
+    <Project Path="Bootstrappers/Api/Api.csproj" Id="c59a90bd-c1fe-4ecc-b3bc-8d8180ce1f32" />
+  </Folder>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Shared/" />
+</Solution>
