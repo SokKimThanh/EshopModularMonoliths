@@ -3,5 +3,16 @@
     <Project Path="Bootstrappers/Api/Api.csproj" Id="c59a90bd-c1fe-4ecc-b3bc-8d8180ce1f32" />
   </Folder>
   <Folder Name="/Modules/" />
-  <Folder Name="/Shared/" />
+  <Folder Name="/Modules/Basket/">
+    <Project Path="Modules/Basket/Basket/Basket.csproj" Id="2cccdd79-3588-4adf-b45c-5b3b3bf18fba" />
+  </Folder>
+  <Folder Name="/Modules/Catalog/">
+    <Project Path="Modules/Catalog/Catalog/Catalog.csproj" Id="4af92fa3-17f0-4d78-a8d2-3785485b499a" />
+  </Folder>
+  <Folder Name="/Modules/Ordering/">
+    <Project Path="Modules/Ordering/Ordering/Ordering.csproj" Id="347204f7-1924-4d39-a0bc-9c6d549504fa" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Shared/Shared.csproj" Id="3c5782e1-aabc-4dbc-b8f2-686f78877b0a" />
+  </Folder>
 </Solution>
