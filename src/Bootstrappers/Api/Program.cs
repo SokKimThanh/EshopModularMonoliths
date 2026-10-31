@@ -12,7 +12,14 @@ builder.Services
     .AddBasketModule(builder.Configuration)
     .AddOrderingModule(builder.Configuration);
 
+
 var app = builder.Build();
+
+app
+    .UseCatalogModule()
+    .UseBasketModule()
+    .UseOrderingModule();
+
 
 // pipeline 
 app.Run();
