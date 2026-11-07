@@ -5,7 +5,7 @@ using System.Text;
 namespace Shared.DDD
 {
     /// <summary>
-    /// Implement entity
+    /// Implement entity abtract class to avoid code duplication
     /// </summary>
     /// <typeparam name="T"></typeparam>
     abstract class Entity<T> : IEntity<T>
