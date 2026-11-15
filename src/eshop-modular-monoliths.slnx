@@ -15,4 +15,5 @@
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared/Shared.csproj" Id="3c5782e1-aabc-4dbc-b8f2-686f78877b0a" />
   </Folder>
+  <Project Path="Shared.Tests/Shared.Tests.csproj" Id="9475f071-900c-41a7-9feb-f31538ec3105" />
 </Solution>

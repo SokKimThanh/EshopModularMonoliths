@@ -7,11 +7,10 @@ namespace Shared.DDD
     /// <summary>
     /// audit interface
     /// </summary>
-    internal interface IEntity
+    public interface IEntity
     {
         string CreatedBy { get; set; }
         DateTime Created { get; set; }
-
         string LastModifiedBy { get; set; }
         DateTime? LastModified { get; set; }
     }
@@ -20,7 +19,7 @@ namespace Shared.DDD
     /// Generic Entity id
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    interface IEntity<T> : IEntity
+    public interface IEntity<T> : IEntity
     {
         T Id { get; set; }
     }

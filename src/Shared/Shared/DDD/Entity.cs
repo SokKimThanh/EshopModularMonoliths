@@ -5,10 +5,10 @@ using System.Text;
 namespace Shared.DDD
 {
     /// <summary>
-    /// Implement entity abtract class to avoid code duplication
+    /// base abstract class implementing interface IEntity
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    abstract class Entity<T> : IEntity<T>
+    public abstract class Entity<T> : IEntity<T>
     {
         public T Id { get; set; }
         public string CreatedBy { get; set; }
